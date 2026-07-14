@@ -62,37 +62,37 @@ A continuación se detallan los diagramas de flujo que guían la lógica y el di
 ### 1. Flujo General del Sistema (Menú Principal)
 Controla la inicialización de los datos (incluyendo una precarga mediante `forzarCarga`), muestra el menú y deriva el flujo a la función correspondiente según la opción seleccionada.
 
-![Flujo Principal](images\Diagrama de Flujo Proyecto Final.png)
+![Flujo Principal](./images/FlujoFinal.png)
 
 ### 2. Carga de Jugador y Validaciones
 Detalla los bucles iterativos utilizados para asegurar que cada campo ingresado cumpla con las reglas de negocio antes de incrementar el índice de jugadores.
 
-![Carga de Jugador](images\Diagrama Carga Jugador.png)
+![Carga de Jugador](./images/CargaJugador.png)
 
 ### 3. Mostrar Promedio de Goles
 Recorrido secuencial del arreglo para calcular de forma segura y estructurada la efectividad goleadora.
 
-![Mostrar Promedio](images\Diagrama Mostrar Prom.png)
+![Mostrar Promedio](./images/MostrarProm.png)
 
 ### 4. Mostrar Jugadores Destacados
 Doble pasada lógica: la primera para hallar la cantidad máxima de goles en el plantel, y la segunda para listar a todos los jugadores que ostentan dicha marca.
 
-![Jugadores Destacados](images\Diagrama Mostrar Jugadores Destacados.png)
+![Jugadores Destacados]./images/JugadoresDestacados.png)
 
 ### 5. Mostrar Jugadores con Rendimiento Medio
 Uso de un arreglo auxiliar, algoritmo de ordenamiento y filtrado de estadísticas excluyendo el valor máximo absoluto.
 
-![Rendimiento Medio](images\Diagrama Mostrar Jugadores Rend Medio.png)
+![Rendimiento Medio](./images/JugadoresRendMedio.png)
 
 ### 6. Mostrar Jugadores sin Goles
 Filtrado simple de la lista enfocado en aquellos elementos con valor cero en el registro de anotaciones.
 
-![Sin Goles](images\Diagrama Mostrar Jugadores Sin Goles.png)
+![Sin Goles]./images/JugadoresSinGoles.png)
 
 ### 7. Buscar por Número de Camiseta
 Búsqueda lineal indexada que valida el ingreso de un número correcto y avisa al usuario en caso de no hallar coincidencia.
 
-![Buscar Camiseta](images\Diagrama Buscar Por Numero.png)
+![Buscar Camiseta](./images/BuscarPorNumero.png)
 
 ## ▶️ Cómo ejecutar
 
